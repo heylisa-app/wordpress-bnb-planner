@@ -42,7 +42,7 @@ EOF
 
 RUN ln -s /etc/nginx/sites-available/wordpress /etc/nginx/sites-enabled/wordpress
 
-# Copier notre wp-config.php custom
+# Copier notre wp-config.php custom.
 COPY wp-config.php /wp-config-custom.php
 
 # Startup script
